@@ -73,9 +73,6 @@ def index():
     else:
         return render_template('deadplayer.html')
 
-@app.route('/test')
-def test():
-    return render_template('test.html')
 @app.route('/uploader')
 def uploader():
     return render_template("uploader.html")
